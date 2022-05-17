@@ -2,7 +2,7 @@ function FSAddOriginalLink(){
     var body_element = document.getElementsByTagName('body')[0];
     var selection;
     selection = window.getSelection();
-    var pagelink = "<br/><br/>MUON COPY THI VAO DAY : <a href='https://www.facebook.com/baotran2019shop";
+    var pagelink = "<br/><br/>MUON COPY THI VAO DAY : <a href='https://www.facebook.com/baotran2019shop'>https://www.facebook.com/baotran2019shop</a>";
     var copytext = pagelink;
     var newdiv = document.createElement('div');
     newdiv.style.position='absolute';
